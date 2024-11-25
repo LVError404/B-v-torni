@@ -15,11 +15,13 @@ namespace Būvē_torni
         public Form5()
         {
             InitializeComponent();
+            Rez.Text = "Rezultāts: " + Form2.TAPL1;
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 
         }
+
     }
 }

@@ -66,7 +66,10 @@ namespace Būvē_torni
             ToAug.Text = "Torņa augstums = " + TAPL1;
             if (MSPL1 == 10)
             {
+               
+                button1.Enabled = false;
                 await Task.Delay(5000);
+                TAPL1 = TAPL1;
                 this.Hide();
                 Form5 soloRez = new Form5();
                 soloRez.Show();

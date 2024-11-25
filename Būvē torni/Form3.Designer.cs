@@ -31,15 +31,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.picPL21MetKaul = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.ToAugPL1 = new System.Windows.Forms.Label();
-            this.MetSkPL1 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.picPL22MetKaul = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.ToAugPL2 = new System.Windows.Forms.Label();
-            this.MetSkPL2 = new System.Windows.Forms.Label();
             this.Ka6 = new System.Windows.Forms.PictureBox();
             this.Ka5 = new System.Windows.Forms.PictureBox();
             this.Ka4 = new System.Windows.Forms.PictureBox();
@@ -47,6 +38,11 @@
             this.Ka2 = new System.Windows.Forms.PictureBox();
             this.Ka1 = new System.Windows.Forms.PictureBox();
             this.Pamatne = new System.Windows.Forms.PictureBox();
+            this.picPL21MetKaul = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.ToAugPL1 = new System.Windows.Forms.Label();
+            this.MetSkPL1 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.Ka26 = new System.Windows.Forms.PictureBox();
             this.Ka25 = new System.Windows.Forms.PictureBox();
             this.Ka24 = new System.Windows.Forms.PictureBox();
@@ -54,10 +50,11 @@
             this.Ka22 = new System.Windows.Forms.PictureBox();
             this.Ka21 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.picPL22MetKaul = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.ToAugPL2 = new System.Windows.Forms.Label();
+            this.MetSkPL2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picPL21MetKaul)).BeginInit();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picPL22MetKaul)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Ka6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Ka5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Ka4)).BeginInit();
@@ -65,6 +62,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.Ka2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Ka1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pamatne)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPL21MetKaul)).BeginInit();
+            this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Ka26)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Ka25)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Ka24)).BeginInit();
@@ -72,6 +71,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Ka22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Ka21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPL22MetKaul)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -85,6 +85,7 @@
             this.label1.Size = new System.Drawing.Size(110, 33);
             this.label1.TabIndex = 2;
             this.label1.Text = "1. Spēlētājs";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -120,6 +121,69 @@
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // Ka6
+            // 
+            this.Ka6.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Ka6.Location = new System.Drawing.Point(181, 166);
+            this.Ka6.Name = "Ka6";
+            this.Ka6.Size = new System.Drawing.Size(50, 50);
+            this.Ka6.TabIndex = 17;
+            this.Ka6.TabStop = false;
+            // 
+            // Ka5
+            // 
+            this.Ka5.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Ka5.Location = new System.Drawing.Point(181, 216);
+            this.Ka5.Name = "Ka5";
+            this.Ka5.Size = new System.Drawing.Size(50, 50);
+            this.Ka5.TabIndex = 16;
+            this.Ka5.TabStop = false;
+            // 
+            // Ka4
+            // 
+            this.Ka4.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Ka4.Location = new System.Drawing.Point(181, 266);
+            this.Ka4.Name = "Ka4";
+            this.Ka4.Size = new System.Drawing.Size(50, 50);
+            this.Ka4.TabIndex = 15;
+            this.Ka4.TabStop = false;
+            // 
+            // Ka3
+            // 
+            this.Ka3.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Ka3.Location = new System.Drawing.Point(181, 316);
+            this.Ka3.Name = "Ka3";
+            this.Ka3.Size = new System.Drawing.Size(50, 50);
+            this.Ka3.TabIndex = 14;
+            this.Ka3.TabStop = false;
+            // 
+            // Ka2
+            // 
+            this.Ka2.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Ka2.Location = new System.Drawing.Point(181, 366);
+            this.Ka2.Name = "Ka2";
+            this.Ka2.Size = new System.Drawing.Size(50, 50);
+            this.Ka2.TabIndex = 13;
+            this.Ka2.TabStop = false;
+            // 
+            // Ka1
+            // 
+            this.Ka1.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Ka1.Location = new System.Drawing.Point(181, 416);
+            this.Ka1.Name = "Ka1";
+            this.Ka1.Size = new System.Drawing.Size(50, 50);
+            this.Ka1.TabIndex = 12;
+            this.Ka1.TabStop = false;
+            // 
+            // Pamatne
+            // 
+            this.Pamatne.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Pamatne.Location = new System.Drawing.Point(154, 464);
+            this.Pamatne.Name = "Pamatne";
+            this.Pamatne.Size = new System.Drawing.Size(100, 20);
+            this.Pamatne.TabIndex = 11;
+            this.Pamatne.TabStop = false;
             // 
             // picPL21MetKaul
             // 
@@ -188,113 +252,6 @@
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             // 
-            // picPL22MetKaul
-            // 
-            this.picPL22MetKaul.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.picPL22MetKaul.Location = new System.Drawing.Point(94, 490);
-            this.picPL22MetKaul.Name = "picPL22MetKaul";
-            this.picPL22MetKaul.Size = new System.Drawing.Size(50, 50);
-            this.picPL22MetKaul.TabIndex = 3;
-            this.picPL22MetKaul.TabStop = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.button2.Font = new System.Drawing.Font("Mistral", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(150, 490);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 50);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Metiens";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // ToAugPL2
-            // 
-            this.ToAugPL2.AutoSize = true;
-            this.ToAugPL2.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.ToAugPL2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ToAugPL2.Font = new System.Drawing.Font("Mistral", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ToAugPL2.Location = new System.Drawing.Point(260, 521);
-            this.ToAugPL2.Name = "ToAugPL2";
-            this.ToAugPL2.Size = new System.Drawing.Size(112, 19);
-            this.ToAugPL2.TabIndex = 1;
-            this.ToAugPL2.Text = "Torņa augstums = 0";
-            // 
-            // MetSkPL2
-            // 
-            this.MetSkPL2.AutoSize = true;
-            this.MetSkPL2.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.MetSkPL2.Font = new System.Drawing.Font("Mistral", 12F);
-            this.MetSkPL2.Location = new System.Drawing.Point(262, 490);
-            this.MetSkPL2.Name = "MetSkPL2";
-            this.MetSkPL2.Size = new System.Drawing.Size(110, 19);
-            this.MetSkPL2.TabIndex = 0;
-            this.MetSkPL2.Text = " Metienu skaits = 0";
-            // 
-            // Ka6
-            // 
-            this.Ka6.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.Ka6.Location = new System.Drawing.Point(181, 166);
-            this.Ka6.Name = "Ka6";
-            this.Ka6.Size = new System.Drawing.Size(50, 50);
-            this.Ka6.TabIndex = 17;
-            this.Ka6.TabStop = false;
-            // 
-            // Ka5
-            // 
-            this.Ka5.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.Ka5.Location = new System.Drawing.Point(181, 216);
-            this.Ka5.Name = "Ka5";
-            this.Ka5.Size = new System.Drawing.Size(50, 50);
-            this.Ka5.TabIndex = 16;
-            this.Ka5.TabStop = false;
-            // 
-            // Ka4
-            // 
-            this.Ka4.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.Ka4.Location = new System.Drawing.Point(181, 266);
-            this.Ka4.Name = "Ka4";
-            this.Ka4.Size = new System.Drawing.Size(50, 50);
-            this.Ka4.TabIndex = 15;
-            this.Ka4.TabStop = false;
-            // 
-            // Ka3
-            // 
-            this.Ka3.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.Ka3.Location = new System.Drawing.Point(181, 316);
-            this.Ka3.Name = "Ka3";
-            this.Ka3.Size = new System.Drawing.Size(50, 50);
-            this.Ka3.TabIndex = 14;
-            this.Ka3.TabStop = false;
-            // 
-            // Ka2
-            // 
-            this.Ka2.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.Ka2.Location = new System.Drawing.Point(181, 366);
-            this.Ka2.Name = "Ka2";
-            this.Ka2.Size = new System.Drawing.Size(50, 50);
-            this.Ka2.TabIndex = 13;
-            this.Ka2.TabStop = false;
-            // 
-            // Ka1
-            // 
-            this.Ka1.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.Ka1.Location = new System.Drawing.Point(181, 416);
-            this.Ka1.Name = "Ka1";
-            this.Ka1.Size = new System.Drawing.Size(50, 50);
-            this.Ka1.TabIndex = 12;
-            this.Ka1.TabStop = false;
-            // 
-            // Pamatne
-            // 
-            this.Pamatne.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Pamatne.Location = new System.Drawing.Point(154, 464);
-            this.Pamatne.Name = "Pamatne";
-            this.Pamatne.Size = new System.Drawing.Size(100, 20);
-            this.Pamatne.TabIndex = 11;
-            this.Pamatne.TabStop = false;
-            // 
             // Ka26
             // 
             this.Ka26.BackColor = System.Drawing.Color.CornflowerBlue;
@@ -358,6 +315,50 @@
             this.pictureBox7.TabIndex = 11;
             this.pictureBox7.TabStop = false;
             // 
+            // picPL22MetKaul
+            // 
+            this.picPL22MetKaul.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.picPL22MetKaul.Location = new System.Drawing.Point(94, 490);
+            this.picPL22MetKaul.Name = "picPL22MetKaul";
+            this.picPL22MetKaul.Size = new System.Drawing.Size(50, 50);
+            this.picPL22MetKaul.TabIndex = 3;
+            this.picPL22MetKaul.TabStop = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.button2.Font = new System.Drawing.Font("Mistral", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(150, 490);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(100, 50);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "Metiens";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // ToAugPL2
+            // 
+            this.ToAugPL2.AutoSize = true;
+            this.ToAugPL2.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.ToAugPL2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ToAugPL2.Font = new System.Drawing.Font("Mistral", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ToAugPL2.Location = new System.Drawing.Point(260, 521);
+            this.ToAugPL2.Name = "ToAugPL2";
+            this.ToAugPL2.Size = new System.Drawing.Size(112, 19);
+            this.ToAugPL2.TabIndex = 1;
+            this.ToAugPL2.Text = "Torņa augstums = 0";
+            // 
+            // MetSkPL2
+            // 
+            this.MetSkPL2.AutoSize = true;
+            this.MetSkPL2.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.MetSkPL2.Font = new System.Drawing.Font("Mistral", 12F);
+            this.MetSkPL2.Location = new System.Drawing.Point(262, 490);
+            this.MetSkPL2.Name = "MetSkPL2";
+            this.MetSkPL2.Size = new System.Drawing.Size(110, 19);
+            this.MetSkPL2.TabIndex = 0;
+            this.MetSkPL2.Text = " Metienu skaits = 0";
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -374,10 +375,6 @@
             this.Load += new System.EventHandler(this.Form3_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picPL21MetKaul)).EndInit();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picPL22MetKaul)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Ka6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Ka5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Ka4)).EndInit();
@@ -385,6 +382,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.Ka2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Ka1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pamatne)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPL21MetKaul)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Ka26)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Ka25)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Ka24)).EndInit();
@@ -392,6 +392,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Ka22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Ka21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPL22MetKaul)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

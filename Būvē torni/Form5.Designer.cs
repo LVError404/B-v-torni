@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.Rez = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -40,14 +40,27 @@
             this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.groupBox1.BackgroundImage = global::Būvē_torni.Properties.Resources.n7778051;
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.groupBox1.Controls.Add(this.Rez);
+            this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Location = new System.Drawing.Point(300, 100);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(400, 550);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.label1.Font = new System.Drawing.Font("Mistral", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(148, 384);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(110, 33);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "1. Spēlētājs";
             // 
             // button2
             // 
@@ -60,32 +73,17 @@
             this.button2.Text = "Spēlēt";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // label3
+            // Rez
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.Rez.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Mistral", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(105, 226);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(162, 68);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Rezultāts";
-            this.label3.UseCompatibleTextRendering = true;
-            // 
-            // label1
-            // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.label1.Font = new System.Drawing.Font("Mistral", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(445, 51);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 33);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "1 Spēlētājs";
+            this.Rez.AutoSize = true;
+            this.Rez.Font = new System.Drawing.Font("Mistral", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Rez.Location = new System.Drawing.Point(100, 16);
+            this.Rez.Name = "Rez";
+            this.Rez.Size = new System.Drawing.Size(114, 57);
+            this.Rez.TabIndex = 4;
+            this.Rez.Text = "label2";
             // 
             // Form5
             // 
@@ -93,14 +91,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Būvē_torni.Properties.Resources.Būvē_torni_fons_;
             this.ClientSize = new System.Drawing.Size(984, 661);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form5";
             this.Text = "Form5";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -108,7 +104,7 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Rez;
     }
 }

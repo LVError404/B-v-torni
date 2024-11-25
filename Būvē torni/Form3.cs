@@ -113,6 +113,7 @@ namespace Būvē_torni
             ToAugPL2.Text = "Torņa augstums = " + TAPL22;
             if (MSPL22 == 10)
             {
+                button2.Enabled = false;
                 await Task.Delay(5000);
                 this.Hide();
                 Form4 duoRez = new Form4();
@@ -120,6 +121,11 @@ namespace Būvē_torni
             }
             button2.Enabled = false;
             button1.Enabled = true;
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
 
         }
     }
