@@ -124,7 +124,7 @@
             // 
             // Ka6
             // 
-            this.Ka6.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Ka6.BackColor = System.Drawing.Color.Transparent;
             this.Ka6.Location = new System.Drawing.Point(181, 166);
             this.Ka6.Name = "Ka6";
             this.Ka6.Size = new System.Drawing.Size(50, 50);
@@ -133,7 +133,7 @@
             // 
             // Ka5
             // 
-            this.Ka5.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Ka5.BackColor = System.Drawing.Color.Transparent;
             this.Ka5.Location = new System.Drawing.Point(181, 216);
             this.Ka5.Name = "Ka5";
             this.Ka5.Size = new System.Drawing.Size(50, 50);
@@ -142,7 +142,7 @@
             // 
             // Ka4
             // 
-            this.Ka4.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Ka4.BackColor = System.Drawing.Color.Transparent;
             this.Ka4.Location = new System.Drawing.Point(181, 266);
             this.Ka4.Name = "Ka4";
             this.Ka4.Size = new System.Drawing.Size(50, 50);
@@ -151,7 +151,7 @@
             // 
             // Ka3
             // 
-            this.Ka3.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Ka3.BackColor = System.Drawing.Color.Transparent;
             this.Ka3.Location = new System.Drawing.Point(181, 316);
             this.Ka3.Name = "Ka3";
             this.Ka3.Size = new System.Drawing.Size(50, 50);
@@ -160,7 +160,7 @@
             // 
             // Ka2
             // 
-            this.Ka2.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Ka2.BackColor = System.Drawing.Color.Transparent;
             this.Ka2.Location = new System.Drawing.Point(181, 366);
             this.Ka2.Name = "Ka2";
             this.Ka2.Size = new System.Drawing.Size(50, 50);
@@ -169,7 +169,7 @@
             // 
             // Ka1
             // 
-            this.Ka1.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Ka1.BackColor = System.Drawing.Color.Transparent;
             this.Ka1.Location = new System.Drawing.Point(181, 416);
             this.Ka1.Name = "Ka1";
             this.Ka1.Size = new System.Drawing.Size(50, 50);
@@ -187,7 +187,7 @@
             // 
             // picPL21MetKaul
             // 
-            this.picPL21MetKaul.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.picPL21MetKaul.BackColor = System.Drawing.Color.Transparent;
             this.picPL21MetKaul.Location = new System.Drawing.Point(98, 490);
             this.picPL21MetKaul.Name = "picPL21MetKaul";
             this.picPL21MetKaul.Size = new System.Drawing.Size(50, 50);
@@ -254,7 +254,7 @@
             // 
             // Ka26
             // 
-            this.Ka26.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Ka26.BackColor = System.Drawing.Color.Transparent;
             this.Ka26.Location = new System.Drawing.Point(177, 166);
             this.Ka26.Name = "Ka26";
             this.Ka26.Size = new System.Drawing.Size(50, 50);
@@ -263,7 +263,7 @@
             // 
             // Ka25
             // 
-            this.Ka25.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Ka25.BackColor = System.Drawing.Color.Transparent;
             this.Ka25.Location = new System.Drawing.Point(177, 216);
             this.Ka25.Name = "Ka25";
             this.Ka25.Size = new System.Drawing.Size(50, 50);
@@ -272,7 +272,7 @@
             // 
             // Ka24
             // 
-            this.Ka24.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Ka24.BackColor = System.Drawing.Color.Transparent;
             this.Ka24.Location = new System.Drawing.Point(177, 266);
             this.Ka24.Name = "Ka24";
             this.Ka24.Size = new System.Drawing.Size(50, 50);
@@ -281,7 +281,7 @@
             // 
             // Ka23
             // 
-            this.Ka23.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Ka23.BackColor = System.Drawing.Color.Transparent;
             this.Ka23.Location = new System.Drawing.Point(177, 316);
             this.Ka23.Name = "Ka23";
             this.Ka23.Size = new System.Drawing.Size(50, 50);
@@ -290,7 +290,7 @@
             // 
             // Ka22
             // 
-            this.Ka22.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Ka22.BackColor = System.Drawing.Color.Transparent;
             this.Ka22.Location = new System.Drawing.Point(177, 366);
             this.Ka22.Name = "Ka22";
             this.Ka22.Size = new System.Drawing.Size(50, 50);
@@ -299,7 +299,7 @@
             // 
             // Ka21
             // 
-            this.Ka21.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Ka21.BackColor = System.Drawing.Color.Transparent;
             this.Ka21.Location = new System.Drawing.Point(177, 416);
             this.Ka21.Name = "Ka21";
             this.Ka21.Size = new System.Drawing.Size(50, 50);
@@ -317,7 +317,7 @@
             // 
             // picPL22MetKaul
             // 
-            this.picPL22MetKaul.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.picPL22MetKaul.BackColor = System.Drawing.Color.Transparent;
             this.picPL22MetKaul.Location = new System.Drawing.Point(94, 490);
             this.picPL22MetKaul.Name = "picPL22MetKaul";
             this.picPL22MetKaul.Size = new System.Drawing.Size(50, 50);
@@ -371,7 +371,6 @@
             this.Controls.Add(this.label1);
             this.Name = "Form3";
             this.Text = "Form3";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form3_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

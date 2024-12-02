@@ -15,7 +15,9 @@ namespace Būvē_torni
         public Form5()
         {
             InitializeComponent();
-            Rez.Text = "Rezultāts: " + Form2.TAPL1;
+
+        Rez.Text = "Rezultāts: " + Form2.TAPL1;
+            
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -23,5 +25,18 @@ namespace Būvē_torni
 
         }
 
+        private void Rez_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
+            this.Hide();
+            Form2 solo = new Form2();
+            solo.Show();
+       
+    }
     }
 }
