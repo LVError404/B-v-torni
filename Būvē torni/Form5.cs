@@ -23,5 +23,11 @@ namespace Būvē_torni
 
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 solo = new Form2();
+            solo.Show();
+        }
     }
 }

@@ -16,6 +16,8 @@ namespace Būvē_torni
         public Form2()
         {
             InitializeComponent();
+            MSPL1 = 0;
+            TAPL1 = 0;
         }
         public static int MSPL1 =0; // Metienu skaits, viens spēlētājs
         public static int TAPL1 =0; // Torņa augstums, viens spēlētājs
@@ -31,6 +33,17 @@ namespace Būvē_torni
 
         private async void button1_Click(object sender, EventArgs e)
         {
+
+            Ka2.Image = null;
+            Ka3.Image = null;
+            Ka4.Image = null;
+            Ka5.Image = null;
+            Ka6.Image = null;
+            Ka2.BackColor = Color.Transparent;
+            Ka3.BackColor = Color.Transparent;
+            Ka4.BackColor = Color.Transparent;
+            Ka5.BackColor = Color.Transparent;
+            Ka6.BackColor = Color.Transparent;
             int randomPL1 = MetKaul1.Next(1, 7);       //Metamais kauliņš no 1-6
             MSPL1++;
 
@@ -38,26 +51,62 @@ namespace Būvē_torni
             {
                 case 1:
                     picPL1MetKaul.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 1 50x50.png";//ja uzmet 1
+                    Ka1.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 1 50x50.png";
                     TAPL1++;
                     break;
                 case 2:
                     picPL1MetKaul.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 2 50x50.png";//ja uzmet 2
+                    Ka1.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 1 50x50.png";
+                    Ka2.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 2 50x50.png";
+                    Ka2.BackColor = Color.CornflowerBlue;
                     TAPL1 +=2;
                     break;
                 case 3:
                     picPL1MetKaul.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 3 50x50.png";//ja uzmet 3
+                    Ka1.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 1 50x50.png";
+                    Ka2.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 2 50x50.png";
+                    Ka3.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 3 50x50.png";
+                    Ka2.BackColor = Color.CornflowerBlue;
+                    Ka3.BackColor = Color.CornflowerBlue;
                     TAPL1 +=3;
                     break;
                 case 4:
                     picPL1MetKaul.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 4 50x50.png";//ja uzmet 4
+                    Ka1.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 1 50x50.png";
+                    Ka2.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 1 50x50.png";
+                    Ka3.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 1 50x50.png";
+                    Ka4.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 1 50x50.png";
+                    Ka2.BackColor = Color.CornflowerBlue;
+                    Ka3.BackColor = Color.CornflowerBlue;
+                    Ka4.BackColor = Color.CornflowerBlue;
                     TAPL1 +=4;
                     break;
                 case 5:
                     picPL1MetKaul.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 5 50x50.png";//ja uzmet 5
+                    Ka1.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 1 50x50.png";
+                    Ka2.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 2 50x50.png";
+                    Ka3.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 3 50x50.png";
+                    Ka4.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 4 50x50.png";
+                    Ka5.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 5 50x50.png";
+                    Ka2.BackColor = Color.CornflowerBlue;
+                    Ka3.BackColor = Color.CornflowerBlue;
+                    Ka4.BackColor = Color.CornflowerBlue;
+                    Ka5.BackColor = Color.CornflowerBlue;
                     TAPL1 +=5;
                     break;
                 case 6:
                     picPL1MetKaul.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 6 50x50.png";//ja uzmet 6
+                    Ka1.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 1 50x50.png";
+                    Ka2.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 2 50x50.png";
+                    Ka3.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 3 50x50.png";
+                    Ka4.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 4 50x50.png";
+                    Ka5.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 5 50x50.png";
+                    Ka6.ImageLocation = @"C:\Users\Error404\Desktop\Dice\dice 6 50x50.png";
+                    Ka2.BackColor = Color.CornflowerBlue;
+                    Ka3.BackColor = Color.CornflowerBlue;
+                    Ka4.BackColor = Color.CornflowerBlue;
+                    Ka5.BackColor = Color.CornflowerBlue;
+                    Ka6.BackColor = Color.CornflowerBlue;
                     TAPL1 +=6;
                     break;
                 default: break;

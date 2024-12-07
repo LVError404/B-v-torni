@@ -30,10 +30,10 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button2 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
+            this.RezPL1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
+            this.RezPL2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
@@ -45,7 +45,7 @@
             this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.groupBox1.BackgroundImage = global::Būvē_torni.Properties.Resources.Spēlētāju_logs;
             this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.RezPL1);
             this.groupBox1.Location = new System.Drawing.Point(54, 100);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(400, 550);
@@ -64,27 +64,27 @@
             this.button2.Text = "Spēlēt";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // label3
+            // RezPL1
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.RezPL1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.label3.Font = new System.Drawing.Font("Mistral", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(116, 226);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(162, 68);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Rezultāts";
-            this.label3.UseCompatibleTextRendering = true;
+            this.RezPL1.AutoSize = true;
+            this.RezPL1.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.RezPL1.Font = new System.Drawing.Font("Mistral", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RezPL1.Location = new System.Drawing.Point(116, 226);
+            this.RezPL1.Name = "RezPL1";
+            this.RezPL1.Size = new System.Drawing.Size(162, 68);
+            this.RezPL1.TabIndex = 0;
+            this.RezPL1.Text = "Rezultāts";
+            this.RezPL1.UseCompatibleTextRendering = true;
             // 
             // groupBox2
             // 
             this.groupBox2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.groupBox2.BackgroundImage = global::Būvē_torni.Properties.Resources.Spēlētāju_logs;
             this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.RezPL2);
             this.groupBox2.Location = new System.Drawing.Point(537, 100);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(400, 550);
@@ -102,20 +102,20 @@
             this.button1.Text = "Spēlēt";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // label4
+            // RezPL2
             // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.RezPL2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.label4.Font = new System.Drawing.Font("Mistral", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(115, 226);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(162, 68);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Rezultāts";
-            this.label4.UseCompatibleTextRendering = true;
+            this.RezPL2.AutoSize = true;
+            this.RezPL2.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.RezPL2.Font = new System.Drawing.Font("Mistral", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RezPL2.Location = new System.Drawing.Point(115, 226);
+            this.RezPL2.Name = "RezPL2";
+            this.RezPL2.Size = new System.Drawing.Size(162, 68);
+            this.RezPL2.TabIndex = 1;
+            this.RezPL2.Text = "Rezultāts";
+            this.RezPL2.UseCompatibleTextRendering = true;
             // 
             // label1
             // 
@@ -169,8 +169,8 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label RezPL1;
+        private System.Windows.Forms.Label RezPL2;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
     }

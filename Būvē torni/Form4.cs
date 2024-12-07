@@ -15,6 +15,8 @@ namespace Būvē_torni
         public Form4()
         {
             InitializeComponent();
+            RezPL1.Text = "Rezultāts: " + Form3.TAPL21;
+            RezPL2.Text = "Rezultāts: " + Form3.TAPL22;
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
